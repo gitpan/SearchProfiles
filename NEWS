@@ -1,0 +1,5 @@
+DBIx::SearchProfiles NEWS -- History of User-Visible Changes.  March 18 2002
+
+* Changes since iNcom 0.09
+
+    - Support for Oracle.

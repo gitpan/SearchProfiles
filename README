@@ -1,0 +1,52 @@
+DBIx::SearchProfiles
+====================
+
+Version: 0.11
+
+Description
+-----------
+
+DBIx::SearchProfiles is a module which wraps around a DBI database
+handle and provides another way than raw SQL to access the database.
+Its aims is to take the SQL out of the code in well defined and
+documented search profiles which are easier to maintain than embedded
+SQL all over the application. Moreover, this decoupling of the
+application logic from the SQL programming makes it possible to review
+the SQL by a DBA which might not be a programmer. It may also makes
+the application's code more obvious and clearer which is a Good
+Thing (tm)
+
+Installing
+----------
+
+The usual:
+
+    perl Makefile.PL
+    make
+    make test
+    make install
+
+Documentation
+-------------
+
+Documentation is included in POD format.
+
+Bugs
+----
+
+Send bug reports and suggestions to <bugs@Contre.COM>
+
+Authors
+-------
+
+Francis J. Lacoste <francis.lacoste@Contre.COM>
+
+Copyright
+---------
+
+Copyright (c) 1999, 2000 iNsu Innovations Inc. 
+Copyright (c) 2001, 2002 Francis J. Lacoste
+All rights reserved.
+
+This package is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
